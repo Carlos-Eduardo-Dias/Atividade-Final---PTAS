@@ -11,6 +11,9 @@ module.exports = {
       titulo: {
         type: Sequelize.STRING
       },
+      autorId: {
+        type: Sequelize.INTEGER
+      },
       editora: {
         type: Sequelize.STRING
       },
